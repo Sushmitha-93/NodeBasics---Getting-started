@@ -5,13 +5,16 @@
 	npm i <packageName>@<version>
 
 // Install a package as a development dependency
-	npm i <packageName> —save-dev
+	npm i <packageName> â€”save-dev
 
 // Uninstall a package
 	npm un <packageName>
 
 // List installed packages 
-	npm list —depth=0
+	npm list â€”depth=0
+	
+// View dependencies in particular package
+	npm view <packageName> dependencies
 
 // View outdated packages
 	npm outdated

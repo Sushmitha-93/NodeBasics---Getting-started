@@ -1,0 +1,23 @@
+// all packages follow Semantic Versioning - Major.Minor.Patch
+// Patch number changes if any "bugs" are fixed
+// Minor version changes if any "new feature" is added
+// Major version changes if any "API level" level changes are made
+{
+  "name": "first-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.6.9", // "^" Caret symbol means - (5.x) Major version must be 5
+    "underscore": "^1.9.1" // "~" Tilde sybol means - (1.9.x) only patch verstion can differ
+  },
+  "devDependencies": {
+    "jshint": "^2.10.2"
+  }
+}
